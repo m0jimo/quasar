@@ -21,7 +21,7 @@ function cb (msg) {
   console.log(msg)
 }
 
-// listen for an event
+// listen for an event - must be placed in created
 this.$root.$on('event_name', cb)
 
 // listen once (only) for an event
